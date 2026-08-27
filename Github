@@ -1,0 +1,15 @@
+git init
+git status
+git add .
+git commit -m "message"
+git log
+git branch
+git switch
+git merge
+git clone
+git remote -v
+git remote add
+git remote set-url
+git pull
+git push
+git fetch
