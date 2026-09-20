@@ -97,3 +97,7 @@ git clone https://github.com/CloudDevOpsHub/Dockerfile-Advance-Demo.git
    7 docker logs 2bf27e8d691f
    8 docker stats
    9 time docker run hello-world
+
+
+
+docker run -it -d -p 8080:8080 jenkins/jenkins:latest
