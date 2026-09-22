@@ -103,3 +103,10 @@ git clone https://github.com/CloudDevOpsHub/Dockerfile-Advance-Demo.git
 docker run -it -d -p 8080:8080 jenkins/jenkins:latest
 docker exec -it containerID /bin/bash
 
+
+
+FROM ubuntu
+MAINTAINER clouddevopshub@gmail.com
+RUN apt.get update
+RUN apt.get install nginx -y
+CMD ["echo","image created"]
