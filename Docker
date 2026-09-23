@@ -112,3 +112,6 @@ RUN apt-get install nginx -y
 CMD ["echo","image created"]
 
 
+docker build -t name.
+docker tag 3bcd36ef3ba5 samanmayee/sumi12:latest
+docker push(before push you should have login)
