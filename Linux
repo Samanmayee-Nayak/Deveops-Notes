@@ -1,0 +1,15 @@
+1. Basic Linux commands
+
+pwd -	Display current directory
+ls -	List files and folders
+ls -la	- Show all files, including hidden files
+cd /home	- Change directory
+cd .. -	Move to the parent directory
+mkdir test -	Create a directory
+touch file.txt	- Create an empty file
+cp a.txt b.txt -	Copy a file
+mv a.txt b.txt -	Move or rename a file
+rm file.txt -	Delete a file
+rm -r folder -	Delete a directory and its contents
+clear	- Clear the terminal
+history	- Display previously executed commands
